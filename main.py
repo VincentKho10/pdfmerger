@@ -4,7 +4,6 @@ from PyPDF2 import PdfReader, PdfWriter, PdfMerger
 
 def main():
     inp_path = './input/'
-    otp_path = './result/'
     os.makedirs(inp_path, exist_ok=True)
     # inp_dir_list = sys.argv()
     inp_dir_list = os.listdir(inp_path)
