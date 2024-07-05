@@ -2,3 +2,6 @@
 /.vscode
 /input
 /result
+/dist
+/build
+main.spec
