@@ -10,11 +10,8 @@ def main():
     filename = ''
     for i,v in enumerate(inp_dir_list):
         if v.endswith('.pdf'):
-            print(i)
-            print(inp_dir_list)
             filename += v.split('.')[0] + ("_" if i < len(inp_dir_list)-1 else "")
             pdfMerger.append(inp_path+v)
-    print(filename)
     pdfMerger.write(open('./result/{}.pdf'.format(filename),'wb'))
     return
 
