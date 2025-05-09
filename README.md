@@ -1,4 +1,4 @@
-PDF MERGER
+#PDF MERGER
 
 Combining multiple pdf without internet access and hassle is a blessings on its own, no third party software just pure drag drop input folder run the app voila you got a merged pdf it cant be easier
 
